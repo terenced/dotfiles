@@ -1,0 +1,3 @@
+extensionConfig:
+  py:
+    tabLength: 4

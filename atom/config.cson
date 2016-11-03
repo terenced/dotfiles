@@ -1,0 +1,104 @@
+"*":
+  "activate-power-mode":
+    autoToggle: false
+  "atom-material-ui":
+    colors:
+      abaseColor: "#ef5350"
+      accentColor: "#59fcff"
+      genAccent: true
+      predefinedColor: "Red"
+    fonts:
+      fontSize: 15
+    tabs:
+      compactTabs: true
+    treeView:
+      compactList: true
+    ui:
+      panelShadows: true
+  "autoclose-html": {}
+  "autocomplete-elixir":
+    elixirPath: "/usr/local/bin/elixir"
+  build: {}
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "linter-flake8"
+      "tree-view"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "Thumbs.db"
+      ".codekit-cache"
+      "bower_components"
+      "node_modules"
+      "deps"
+      "_build"
+      "*.egg-info"
+      "*.pyc"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax-dark"
+    ]
+  editor:
+    fontFamily: "Operator Mono"
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "b610c95c-df9e-8149-c0e3-171b84abc9d5"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  "git-plus": {}
+  "highlight-line":
+    enableUnderline: true
+  "js-hyperclick":
+    extensions: [
+      ".js"
+      ".json"
+      ".node"
+      ".jsx"
+      ".coffee"
+    ]
+  linter:
+    lintOnFly: false
+  "linter-flake8":
+    flakeErrors: true
+  "linter-stylelint":
+    disableWhenNoConfig: true
+  minimap:
+    plugins:
+      "minimap-autohide": true
+      "minimap-autohideDecorationsZIndex": 0
+  nuclide:
+    "nuclide-home":
+      showHome: false
+  "python-indent": {}
+  rspec:
+    command: "bundle exec rspec"
+  "rspec-tree-runner": {}
+  "symbols-tree-view":
+    autoHide: true
+    autoToggle: true
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false

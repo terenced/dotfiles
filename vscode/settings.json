@@ -1,0 +1,58 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "workbench.editor.enablePreview": false,
+  // Editor
+  "editor.fontFamily": "Ubuntu Mono",
+  "editor.fontSize": 15,
+  "editor.tabSize": 2,
+  "editor.glyphMargin": true,
+  "editor.rulers": [79],
+  "editor.renderWhitespace": "all",
+  "editor.fontLigatures": true,
+  "editor.renderIndentGuides": true,
+  // Remove trailing auto inserted whitespace
+  "editor.trimAutoWhitespace": true,
+
+  // ESLint
+  "eslint.enable": true,
+  "eslint.nodePath": "./node_modules/.bin/eslint",
+  "stylelint.enable": true,
+  // Enable / disable JavaScript validation
+  "javascript.validate.enable": true,
+
+  // Files
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    // Python
+    "**/*.pyc": true,
+    // Polar Projects
+    "etc/":true,
+    "eggs/":true,
+    "develop-eggs/":true,
+    "git-eggs/":true,
+    "parts/":true,
+    "var/":true,
+    ".coveragerc":true,
+    // Sublime Text
+    "*.sublime-*":true,
+    // node
+    "node_modules": true,
+    ".storybook": true,
+    "*coverage*": true,
+    "assets": true,
+    "src/*.egg-info": true
+  },
+  "files.associations": {
+    "*.zsh-theme": "shellscript"
+  },
+  // typescript
+  "typescript.check.tscVersion": false,
+  // Python
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": false,
+
+  // Integrated Terminal
+"terminal.external.osxExec": "iTerm.app",
+"window.zoomLevel": 0
+}
